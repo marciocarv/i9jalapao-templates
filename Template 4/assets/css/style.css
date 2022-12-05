@@ -99,8 +99,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
-  height: 70px;
+  background: linear-gradient(45deg, #212529, #6c757d);
+  height: 80px;
   transition: all 0.5s;
 }
 
@@ -561,7 +561,7 @@ section {
   width: 60px;
   height: 3px;
   background: #1dc8cd;
-  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(0deg, #41464b 0%, #6c757d 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -641,7 +641,7 @@ section {
 }
 
 #about .about-img {
-  height: 510px;
+  height: 740px;
   overflow: hidden;
 }
 
@@ -1397,4 +1397,12 @@ section {
 
 #footer .footer-links a:hover {
   color: #1dc8cd;
+}
+
+img{
+  border-radius: 6px;
+}
+
+.img-pct{
+  border: 2px solid #c3c5c3;
 }
