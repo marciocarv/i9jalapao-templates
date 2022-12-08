@@ -714,7 +714,7 @@ section {
 @media (min-width: 769px) {
   #features .features-img {
     padding-top: 120px;
-    margin-top: -200px;
+    margin-top: -120px;
   }
 }
 
