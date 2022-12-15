@@ -46,7 +46,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   padding: 0;
 }
 
@@ -1004,25 +1004,29 @@ section {
 }
 
 #pricing h4 {
-  font-size: 46px;
+  font-size: 20px;
   color: #1dc8cd;
   font-weight: 300;
 }
 
 #pricing h4 sup {
-  font-size: 20px;
-  top: -20px;
+  font-size: 13px;
+  top: -10px;
+}
+
+.vista{
+  margin-top: -20px;
 }
 
 #pricing h4 span {
-  color: #bababa;
-  font-size: 20px;
+  color: rgb(73, 73, 73);
+  font-size: 15px;
 }
 
 #pricing ul {
   padding: 0;
   list-style: none;
-  color: #999;
+  color: rgb(73, 73, 73);
   text-align: left;
   line-height: 20px;
 }
