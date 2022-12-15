@@ -34,6 +34,10 @@ p {
   margin: 0 0 30px 0;
 }
 
+.inclusos p{
+  margin: 0 0 0 0;
+}
+
 h1,
 h2,
 h3,
@@ -42,7 +46,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   padding: 0;
 }
 
@@ -714,7 +718,7 @@ section {
 @media (min-width: 769px) {
   #features .features-img {
     padding-top: 120px;
-    margin-top: -200px;
+    margin-top: -120px;
   }
 }
 
@@ -792,12 +796,12 @@ section {
 #advanced-features p {
   line-height: 24px;
   color: #777;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #advanced-features i {
   color: #666666;
-  font-size: 64px;
+  font-size: 30px;
   transition: 0.5s;
   float: left;
   padding: 0 15px 0px 0;
@@ -805,8 +809,8 @@ section {
 }
 
 #advanced-features i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #050505;
+  background: linear-gradient(45deg, #070707 0%, #080808 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1000,25 +1004,29 @@ section {
 }
 
 #pricing h4 {
-  font-size: 46px;
+  font-size: 20px;
   color: #1dc8cd;
   font-weight: 300;
 }
 
 #pricing h4 sup {
-  font-size: 20px;
-  top: -20px;
+  font-size: 13px;
+  top: -10px;
+}
+
+.vista{
+  margin-top: -20px;
 }
 
 #pricing h4 span {
-  color: #bababa;
-  font-size: 20px;
+  color: rgb(73, 73, 73);
+  font-size: 15px;
 }
 
 #pricing ul {
   padding: 0;
   list-style: none;
-  color: #999;
+  color: rgb(73, 73, 73);
   text-align: left;
   line-height: 20px;
 }
