@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #13C5DD;
+    --primary: #dc3545;
     --secondary: #354F8E;
     --light: #EFF5F9;
     --dark: #1D2A4D;
@@ -60,14 +60,14 @@
     padding: 30px 0;
     font-size: 18px;
     font-weight: 700;
-    color: var(--dark);
+    color: #6b6a6a;
     outline: none;
     transition: .5s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #dc3545;
 }
 
 @media (min-width: 992px) {
@@ -243,4 +243,8 @@
 .testimonial-carousel .owl-item img {
     width: 150px;
     height: 150px;
+}
+
+.logo{
+    width: 100px;
 }
