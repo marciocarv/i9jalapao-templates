@@ -34,6 +34,10 @@ p {
   margin: 0 0 30px 0;
 }
 
+.inclusos p{
+  margin: 0 0 0 0;
+}
+
 h1,
 h2,
 h3,
@@ -792,12 +796,12 @@ section {
 #advanced-features p {
   line-height: 24px;
   color: #777;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 #advanced-features i {
   color: #666666;
-  font-size: 64px;
+  font-size: 30px;
   transition: 0.5s;
   float: left;
   padding: 0 15px 0px 0;
@@ -805,8 +809,8 @@ section {
 }
 
 #advanced-features i:before {
-  background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: #050505;
+  background: linear-gradient(45deg, #070707 0%, #080808 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
